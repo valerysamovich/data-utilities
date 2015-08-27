@@ -1,3 +1,5 @@
+package com.samovich.converters;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,16 +16,8 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 
 /**
  * Converts the .xls file to .csv
- *     <!-- Dependencies -->
- <dependencies>
- <dependency>
- <groupId>org.apache.poi</groupId>
- <artifactId>poi</artifactId>
- <version>3.12</version>
- </dependency>
- </dependencies>
  */
-public class ConvertXLSXtoCSV {
+public class XlsToCsv {
 
     private static List<List<HSSFCell>> cellGrid;
 
