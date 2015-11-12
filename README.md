@@ -1,2 +1,2 @@
-# data-utilities
+# Data utilities
 .xls to .csv converter
